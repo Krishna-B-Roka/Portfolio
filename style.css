@@ -1,0 +1,124 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; 
+    background-color: #f8f9fa; 
+}
+
+h1, h2, h3  {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+}
+
+
+.navbar {
+    border-bottom: 3px solid #007bff; 
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: #fff !important;
+}
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+    color: #ffffff !important; 
+}
+
+
+.navbar .nav-link.active {
+  color: #fff;
+  font-weight: 700;   
+  text-decoration: none;
+}
+
+
+#home {
+    background-color: #007bff; 
+    background-image: linear-gradient(to right, #007bff, #0056b3);
+    color: #ffffff;
+    padding-top: 3rem; 
+    padding-bottom: 1 rem ;
+}
+
+#home h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+#home .lead {
+    font-style: strong-bold ;
+    font-size:  1 rem ;
+    margin-top: 1rem;
+}
+
+.profile-pic {
+    max-width: 270px; 
+    height: auto;
+    border-radius: 00px;
+}
+
+
+
+#home .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #007bff;
+}
+
+#skills .card {
+    border-radius: 0.75rem; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#skills .card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#skills .card-title {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+}
+
+.badge.bg-secondary {
+    background-color: #6c757d !important; 
+    padding: 0.6em 1em;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.badge.bg-info {
+    background-color: #17a2b8 !important; 
+}
+
+
+section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+
+section h2 {
+    font-size: 2.2 rem ;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+section h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background-color: #007bff;
+}
